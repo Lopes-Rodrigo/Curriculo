@@ -2,12 +2,10 @@
 
 *{
     font-style: inherit;
-    color:black;;
+    color:black;
+    margin: 0;
 }
-html{
-    justify-content: center;
-    align-items: center;
-}
+
 .circulo{
     border-radius: 50%;
     border:1px solid black;
@@ -25,17 +23,23 @@ html{
 
 .esquerda{
     float: left;
-    padding-right: 200px;
+    padding-right: 600px;
     border-right: rgb(255, 255, 255) solid 2px;
-    height: 500px;
+    height: 1200px;
+    padding-left: 200px;
+    padding-top: 400px;
 }
 
 .direita{
     float: right;
     margin-right: 200px;
+    padding-right: 400px;
+    padding-top: 400px;
+    
 }
 
 .fild{
     background-image: linear-gradient(#A100FFFF, #119CFDFF);
+   
 }
 
