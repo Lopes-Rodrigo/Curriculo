@@ -1,0 +1,41 @@
+
+
+*{
+    font-style: inherit;
+    color:black;;
+}
+html{
+    justify-content: center;
+    align-items: center;
+}
+.circulo{
+    border-radius: 50%;
+    border:1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.logos{
+    width: 200px;
+}
+
+.img{
+    border-radius: 50%; 
+}
+
+.esquerda{
+    float: left;
+    padding-right: 200px;
+    border-right: rgb(255, 255, 255) solid 2px;
+    height: 500px;
+}
+
+.direita{
+    float: right;
+    margin-right: 200px;
+}
+
+.fild{
+    background-image: linear-gradient(#A100FFFF, #119CFDFF);
+}
+
